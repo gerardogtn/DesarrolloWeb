@@ -1,0 +1,27 @@
+<h1>Instrucciones</h1>
+<h2>1) Crear una maquina virtual usando su provedor preferido</h2>
+<p>En este ejemplo usaremos Vagrant.</p>
+<p><code>vagrant init bento/fedora-24</code></p>
+<h2>2) Configurar IP en la maquina virtual</h2>
+<p>Habilitar una red privada en el archivo Vagrantfile<code>config.vm.network "private_network", ip: "192.168.68.8"</code></p>
+<p><a href="Vagrantfile"> Archivo Vagrantfile muestra </a></p>
+<h2>2) Conectarse a la maquina virtual</h2>
+<p><code>vagrant up &amp;&amp; vagrant ssh</code></p>
+<h2>3) Instalar HTTPD</h2>
+<p><code>sudo dnf install httpd</code></p>
+<h2>4) Compartir directorios de usuarios</h2>
+<h3>4.1) Modificar /etc/httpd/conf.d/userdir.conf</h3>
+<p>El archivo debe ser igual al presente en este directorio. <a href="userdir.conf">Archivo muestra </a></p>
+<h3>4.2) Reactivar el servicio httpd</h3>
+<p><code>sudo systemctl restart httpd.service</code></p>
+<h2>5) Verificar conexión</h2>
+<p>Desde un explorador entrar a las siguientes direcciones y verificar que la
+conexión es correcta:
+<ul>
+  <li>192.168.68.8</li>
+  <li>192.168.68.8/~usuario</li>
+</ul>
+<h2>6) Debuggear si es necesario</h2>
+<p>Si hay errores en la configuracion, ejecutar el siguiente comando para leer
+los logs de errores y solucionar cualquier problema que se presente</p>
+<p><code>tail -f /etc/httpd/logs/error_log</code></p>

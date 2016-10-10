@@ -1,0 +1,19 @@
+<h1>Administración de bases de datos</h1>
+<h2>Backup</h2>
+<p><code>mysqldump --user=daw-1018057 -p=Password DB &gt; backup.sql</code>
+<code>mysql -u=daw-1018057 -p --xml -e 'SELECT * FROM tabla'</code></p>
+<h2>Restore</h2>
+<p><code>mysql dump --user=daw-1018057 -p=Password DB</code></p>
+<h2>MYSQL desde la terminal</h2>
+<p><code>mysql -u=usuariodb -p=Password -e 'SELEC * FROM tabla'</code></p>
+<h2>Cron</h2>
+<h3>Ejecutar un comando todos los dias a las 20:00</h3>
+<p>Cron: <code>0 20 * * *</code>
+Comando: <code>echo "Son las 8 pm!"</code></p>
+<h3>Ejecutar un comando cada 5 min</h3>
+<p>Cron: <code>/*5 * * * *</code>
+Comando: <code>echo "Ya pasaron 5 minutos!"</code></p>
+<h3>Imprimir los ultimos 5 usuarios que se conectaron a la base de datos enlos ultimos 5 minutos</h3>
+<p>Cron: <code>/*5 * * * *</code>
+Comando:
+<code>mysql -u=usuario -p=password --xml -e 'SELECT * FROM clientes ORDER BY desc LIMIT 5' &gt; archivo.xml</code></p>

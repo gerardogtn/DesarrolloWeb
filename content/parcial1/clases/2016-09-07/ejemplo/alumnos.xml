@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<alumnos>
+  <alumno>
+    <nombre>Vicente</nombre>
+    <appaterno>Fox</appaterno>
+    <apmaterno>Quesada</apmaterno>
+  </alumno>
+  <alumno>
+    <nombre>Felipe</nombre>
+    <appaterno>Calderon</appaterno>
+    <apmaterno>Hinojosa</apmaterno>
+  </alumno>  
+</alumnos>

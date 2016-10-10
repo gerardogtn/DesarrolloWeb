@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset='UTF-8'>
+    <title>Laboratorio 2 </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      function Hola(){
+        alert ("Gerardo Teruel");
+      }
+    </script> 
+    <h1>P&aacute;gina HTML que convertiremos en XHTML</h1>
+    <br />
+    <br />
+    <hr id="largeBreak"/>
+    <b id="largeGreen">Esta p&aacute;gina no cumple con los est&aacute;ndares de la W3C</b>
+    <p>Esto es un p&aacute;rrafo con un texto en <b>negrita </b> y <i> cursiva</i>.</p>
+  <p>
+    Esto es un p&aacute;rrafo en el que coloco un salto de linea. <br>
+    <pre>Esto es un p&aacute;rrafo con un texto preformateado</pre>	<br>
+    <cite>Crea una cita, usando it&aacute;licas</cite>
+    <em>Enfatiza una palabra</em> <br>
+    <strong>Enfatiza una palabra (con it&aacute;licas o negritas)</strong> <br>
+    <p id="fontLargest">Permite definir el cuerpo de la fuente de 1 a 7</p><br>
+    <a href="mailto:A01018057@itesm.mx">Crea un enlace de email</a><br>
+    <a id="NAME">Crea un enlace dentro del documento</a> <br>
+    <a href="#NAME">Vincula a ese target dentro del documento</a> <br>
+    <a href="history_file.txt">Liga al archivo de los comandos utilizados </a>
+    <blockquote>Justifica el texto a ambos lados </blockquote> <br>
+    <p id="teletipo">Crea texto teletipo</p> <br>
+    Y ahora continuamos aqui.
+
+  <p id="center">Esto es texto centrado</p>
+
+  <ul>
+	  <li>
+      Esto es una lista con un enlace a una funci&oacute;n de 
+      <a href="javascript:Hola()">javascript</a>
+    </li>
+
+    <li>Esto es otra lista con una imagen <img src="colors/lapiz.gif" alt="[lapiz]"> </li>
+	  <li id="largeRed">
+      Este es otro elemento de la lista con otro color y tama&ntilde;o de fuente mayor.
+    </li>
+  </ul>
+  <br />
+  <hr />
+  <p id="black">Negro</p>
+	<p id="yellow">Amarillo</p>
+	<p id="blue">Azul</p>
+	<p id="white">Blanco</p>
+	<p id="red">Rojo</p>
+	<p id="orange">Naranja</p>
+
+  <hr id="formDivider" />
+
+  <p>Y para terminar una forma y 16 colores en hexadecimal</p>
+  
+  <form>
+    <label>Campo de texto
+      <input type="text" name="textfield" id="textfield" />
+    </label>
+    
+    <p>
+      <label>&Aacute;rea de texto<br />
+      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+      </label>
+    </p>
+
+    <p>
+      <label>
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        Check box
+      </label>
+      <label>
+        <input type="checkbox" name="checkbox2" id="checkbox2" />
+        Otro check box
+      </label>
+    </p>
+  
+    <p>
+    <label></label>
+    <label>
+      <input type="radio" name="GrupoOpciones1" value="opción" id="GrupoOpciones1_0" />
+      Opci&oacute;n 1
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="GrupoOpciones1" value="opción" id="GrupoOpciones1_1" />
+      Opci&oacute;n 2
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="GrupoOpciones1" value="opción" id="GrupoOpciones1_2" />
+      Opci&oacute;n 3
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="GrupoOpciones1" value="opción" id="GrupoOpciones1_3" />
+      Opci&oacute;n 4
+    </label>
+    </p>
+    <p>
+      <label>Esto es una lista
+        <select name="select" id="select">
+          <option>Valor 1</option>
+          <option>Valor 2</option>
+          <option>Valor 3</option>
+          <option>Valor 4</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label>Esto es un campo de archivo
+        <input type="file" name="fileField" id="fileField" />
+      </label>
+    </p>
+    <p>
+      <label>Esto es un bot&oacute;n
+        <input type="submit" name="button" id="button" value="Enviar" />
+      </label>
+    </p>
+    <br />
+  </form>
+
+  <table class="center">
+    <tr>
+      <td>
+        <img src="colors/aqua.gif" alt="aqua" width="50" height="50" />
+        <br />
+        Aqua
+        <br />
+        #00FFFF
+      </td>
+      <td>
+        <img src="colors/black.gif" alt="black" width="50" height="50" />
+        <br />
+        Black
+        <br />
+        #000000
+      </td>
+      <td>
+        <img src="colors/blue.gif" alt="blue" width="50" height="50" />
+        <br />
+        Blue
+        <br />
+        #0000FF
+      </td>
+      <td>
+        <img src="colors/fuchsia.gif" alt="fuchsia" width="50" height="50" />
+        <br />Fuchsia
+        <br />#FF00FF
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <img src="colors/gray.gif" alt="gray" width="50" height="50" />
+        <br />
+        Gray
+        <br />
+        #808080
+      </td>
+      <td>
+        <img src="colors/green.gif" alt="green" width="50" height="50" />
+        <br />
+        Green
+        <br />
+        #008000
+      </td>
+      <td>
+        <img src="colors/lime.gif" alt="lime" width="50" height="50" />
+        <br />
+        Lime
+        <br />
+        #00FF00
+      </td>
+      <td>
+        <img src="colors/maroon.gif" alt="maroon" width="50" height="50" />
+        <br />
+        Maroon
+        <br />
+        #800000
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="colors/navy.gif" alt="navy" width="50" height="50" />
+        <br />
+        Navy
+        <br />
+        #000080
+      </td>
+      <td>
+      <img src="colors/olive.gif" alt="olive" width="50" height="50" />
+        <br />
+        Olive
+        <br />
+        #808000
+      </td>
+      <td>
+        <img src="colors/purple.gif" alt="purple" width="50" height="50" />
+        <br />
+        Purple
+        <br />
+        #800080
+      </td>
+      <td>
+        <img src="colors/red.gif" alt="red" width="50" height="50" />
+        <br />
+        Red
+        <br />
+        #FF0000
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="colors/silver.gif" alt="silver" width="50" height="50" />
+        <br />
+        Silver
+        <br />
+        #C0C0C0
+      </td>
+      <td>
+        <img src="colors/teal.gif" alt="teal" width="50" height="50" />
+        <br />
+        Teal
+        <br />
+        #008080
+      </td>
+      <td>
+        <img src="colors/white.gif" alt="white" width="50" height="50" />
+        <br />
+        White
+        <br />
+        #FFFFFF
+      </td>
+      <td>
+        <img src="colors/yellow.gif" alt="yellow" width="50" height="50" />
+        <br />
+        Yellow
+        <br />
+        #FFFF00
+      </td>
+    </tr>
+  </table>
+  </body>
+</html>

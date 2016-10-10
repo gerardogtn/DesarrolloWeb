@@ -1,0 +1,43 @@
+<? xml version="1.0" encoding="utf-8" ?>
+<pedido>
+  <direccion> 
+    <calle>Club Pachuca 18</calle>
+    <colonia>Villa Coapa</colonia>
+    <estado>Ciudad de Mexico</estado>
+    <pais>Mexico</pais>
+  </direccion>
+  <fecha>27-08-2007</fecha>
+  <productos>
+    <producto> 
+      <codigo>872-AA</codigo>
+      <tipo>Anillo</tipo>
+      <descripcion>Anillo de oro de 22 kilates con diamante</descripcion>
+      <quilate>22</quilate>
+      <costo>10500</costo>
+      <tags>
+        <tag>Anillo</tag>
+        <tag>Oro</tag>
+        <tag>Diamante</tag>
+      </tags>
+      <cantidad>1</cantidad>
+    </producto>
+    <producto>
+      <codigo>926-FH</codigo>
+      <tipo>Anillo</tipo>
+      <descripcion> Anillo de oro de 8 quilates</descripcion>
+      <quilate>8</quilate>
+      <tags>
+        <tag>Anillo</tag>
+        <tag>Oro</tag>
+      </tags>
+    </producto>
+  </productos>
+  <pago>
+    <direccion>
+      <calle>Minami Josanjima-Cho Itano Gun</calle>
+      <estado>Osaka-ken</estado>
+      <pais>Japon</pais>
+    </direccion>
+    <cantidad>24500</cantidad>
+  </pago>
+</pedido>

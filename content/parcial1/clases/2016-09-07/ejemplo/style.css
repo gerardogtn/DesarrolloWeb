@@ -1,0 +1,19 @@
+alumnos {
+  background-color: gray
+}
+
+alumno {
+  display: block;
+  background-color: silver;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+nombre, appaterno, apmaterno {
+  display: block;
+  background-color: #E91E63;
+  font-size: x-small;
+  padding: 2px;
+}

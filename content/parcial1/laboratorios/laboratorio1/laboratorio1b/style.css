@@ -1,0 +1,76 @@
+#fontLargest {
+  font-size:35px;
+}
+
+#largeBreak {
+  color:#000099;
+  background-color:#000099;
+  height:10px;
+  margin-left:auto;
+}
+
+#largeGreen {
+  color:green;
+  font-size:20px;
+}
+
+#center {
+  text-align:center;
+}
+
+#black {
+  font-size:15px;
+  color:black;
+}
+
+#yellow {
+  font-size:15px;
+  color:yellow;
+  background-color:#9E9E9E;
+}
+
+#blue {
+  font-size:15px;
+  color:blue;
+}
+
+#white {
+  font-size:15px;
+  color:white;
+  background-color:#9E9E9E;
+}
+
+#red {
+  font-size:15px;
+  color:red;
+}
+
+#largeRed {
+  font-size:25px;
+  color:red;
+}
+
+#orange {
+  font-size:15px;
+  color:orange;
+}
+
+#table {
+  border-spacing:10px;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#formDivider {
+  color:#000044;
+  background-color:#000022;
+  text-align:center;
+  height:10px;
+}
+
+#teletipo {
+  font-family:monospace;
+}

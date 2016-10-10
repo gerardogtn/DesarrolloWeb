@@ -1,0 +1,97 @@
+section, aside {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #efefef;
+  display: block;
+  text-align:center;
+  z-index: 50;
+}
+
+footer {
+  position: fixed;
+  clear:both;
+  width:100%;
+  bottom:0;
+  margin-bottom:0;
+  text-align:center;
+}
+
+footer p {
+  display: block;
+  font-size:12px;
+  margin:inherit;
+}
+
+aside {
+  position:fixed;
+  top:0;
+  right:0;
+  float:right;
+  text-align: right;
+  width:20%;
+  margin: 150px 10px 0 5%;
+}
+
+aside p {
+  margin: 0 1.5% 5px 1.5%;
+}
+
+main {
+  float:left;
+  width:75%;
+  margin-top: 150px;
+  padding-bottom: 20px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  size:16px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size:24px;
+  margin: 0 1.5% 24px 1.5%;
+}
+
+h3 {
+  font-size:18px;
+  margin: 0 1.5% 24px 1.5%;
+}
+
+#navMenu {
+  display:inline;
+  padding:5px;
+  margin:2px;
+}
+
+p {
+  margin:inherit;
+}
+
+ul {
+  margin:inherit;
+}
+
+nav {
+ float:center;
+}
+
+#main {
+ width:100%;
+}
+
+figcaption {
+  text-align:center;
+}
