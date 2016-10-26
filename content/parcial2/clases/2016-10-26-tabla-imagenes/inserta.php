@@ -9,7 +9,7 @@
       // Conexion a base de datos.
       $conn = new mysqli("localhost", "1018057_user", "1018057", "daw_1018057");
       if ($conn->connect_error) {
-        die("Conexion fallida: " . $conn->connect_error);;
+        die("Conexion fallida: " . $conn->connect_error);
       }
 
       // Obtener datos de la url
@@ -30,7 +30,7 @@
       $result = $conn->query($sql);
 
       echo "<h1>File uploaded succesfully</h1>\n";
-      echo "<p>The insertion query is:</p>\n"
+      echo "<p>The insertion query is:</p>\n";
       echo "<p>$sql</p>\n";
     ?>
   </body>
