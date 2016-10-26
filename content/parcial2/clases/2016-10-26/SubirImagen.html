@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Subir imagen</title>
+    <link href="css/bootstrap.css"></link>
+  </head>
+  <body>
+    <h1>Subir imagenes a PHP</h1>
+    <form action="subir.php" method="post" enctype="multipart/form-data">
+
+      <label>Titulo</label>
+      <input type="text" name="titulo" required></input>
+      <br />
+
+      <label>Comentario</label>
+      <input type="textarea" name="comentario" required></input>
+      <br />
+
+      <label>Categoria</label>
+      <select name="categoria">
+        <option value="PHP">PHP</option>
+        <option value="CGI">CGI</option>
+        <option value="C++">C++</option>
+      </select>
+      <br />
+
+      <label>Archivo</label>
+      <input type="hidden" name="MAX_FILE_SIZE" value="1024000"></input>
+      <input type="file" size="44" name="imagen"></input>
+      <br />
+
+      <input type="submit"></input>
+      <input type="reset" value="Cancelar"></input>
+    </form>
+  </body>
+</html>
