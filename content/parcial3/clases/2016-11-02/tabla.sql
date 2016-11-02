@@ -1,0 +1,1 @@
+CREATE TABLE votos(id TEXT PRIMARY KEY, votos INTEGER);
