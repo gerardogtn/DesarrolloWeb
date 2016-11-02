@@ -6,13 +6,13 @@
   </head>
   <body>
     <?php
-      include_once('config.php')
+      include_once('config.php');
 
       $candidatoAvotar = $_REQUEST['voto'];
-      $updateQuery = "UPDATE votos SET votos = votos + 1 WHERE id = $candidatoAvotar";
+      $updateQuery = "UPDATE votos SET votos.votos = votos.votos + 1 WHERE id = '$candidatoAvotar';";
       $conn->query($updateQuery);
 
-      $sql = "SELECT * FROM Images";
+      $sql = "SELECT * FROM votos;";
 
       $result = $conn->query($sql);
       while($row = $result->fetch_assoc()) {
@@ -23,7 +23,7 @@
         echo "<p>$votos</p>\n";
       }
 
-      conn->close();
+      $conn->close();
     ?>
   </body>
 </html>
