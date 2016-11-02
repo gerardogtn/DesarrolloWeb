@@ -15,13 +15,18 @@
       $sql = "SELECT * FROM votos;";
 
       $result = $conn->query($sql);
+
+      echo "<table>\n"
+      echo "<tr> <th></th> <th scope='col'>Numero de votos</th> </tr>\n"
       while($row = $result->fetch_assoc()) {
         $candidato = $row['id'];
         $votos = $row['votos'];
-        echo "<h3>$candidato</h1>\n";
-        echo "<br></br>\n";
-        echo "<p>$votos</p>\n";
+        echo "<tr>\n";
+        echo "<th scope='row'>$candidato</th>\n";
+        echo "<td>$votos</td>\n";
+        echo "</tr>\n";
       }
+      echo "</table>\n";
 
       $conn->close();
     ?>
